@@ -1,0 +1,54 @@
+.auth-parent{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+}
+.auth-parent Button:hover{
+background-color: rgb(72, 255, 0) !important;
+color: black !important;
+}
+.auth-parent Button{
+    width:150px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.auth-parent form{
+    width:400px;
+    box-shadow: 1px 1px 5px grey;
+    padding:50px 25px;
+    background-color: white !important;
+    z-index: 1;
+opacity: 0.7;
+}
+.auth-parent form label{
+    font-weight: 600;
+    font-size: 30px;
+}
+.auth-parent form input{
+    font-size: 20px;
+}
+.auth-parent h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.auth-parent input{
+    border:1px solid grey;
+}
+.brand{
+    width:100%;
+    text-align: center;
+    font-size: 250px !important;
+    position:absolute;
+    top:25%;
+    left:0;
+    transform: rotate(-10deg) !important;
+    /* color:rgba(0, 0, 0, 0.5); */
+    transform: translate(-50%,-50%);
+    text-shadow:0px 0px 5px rgb(0, 0, 0) ,0px 0px 10px rgb(0, 0, 0),0px 0px 20px rgb(0, 0, 0) ;
+    color: white;
+}
